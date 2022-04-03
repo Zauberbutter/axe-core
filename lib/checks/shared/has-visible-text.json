@@ -5,7 +5,10 @@
     "impact": "minor",
     "messages": {
       "pass": "Element has text that is visible to screen readers",
-      "fail": "Element does not have text that is visible to screen readers",
+      "fail": {
+        "default": "Element does not have text that is visible to screen readers",
+        "missingAlt": "Element contains an image that has no text or alt-text available for screen readers."
+      },
       "incomplete": "Unable to determine if element has children"
     }
   }
